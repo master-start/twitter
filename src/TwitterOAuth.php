@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Kangdev\TwitterOAuth;
+namespace kangdev\TwitterOAuth;
 
 use kangdev\TwitterOAuth\{
     Consumer,

@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Kangdev\TwitterOAuth;
+namespace kangdev\TwitterOAuth;
 
 class Request
 {

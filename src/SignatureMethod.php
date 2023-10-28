@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Kangdev\TwitterOAuth;
+namespace kangdev\TwitterOAuth;
 
 /**
  * A class for implementing a Signature Method
