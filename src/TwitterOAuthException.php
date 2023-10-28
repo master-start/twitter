@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Abraham\TwitterOAuth;
+namespace kangdev\TwitterOAuth;
 
 /**
- * @author Abraham Williams <abraham@abrah.am>
+ * @author kangdev Williams <kangdev@abrah.am>
  */
 class TwitterOAuthException extends \Exception
 {

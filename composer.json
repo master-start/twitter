@@ -1,5 +1,5 @@
 {
-  "name": "abraham/twitteroauth",
+  "name": "kangdev/twitteroauth",
   "type": "library",
   "description": "The most popular PHP library for use with the Twitter OAuth REST API.",
   "keywords": [
@@ -15,15 +15,15 @@
   "homepage": "https://twitteroauth.com",
   "authors": [
     {
-      "name": "Abraham Williams",
-      "email": "abraham@abrah.am",
+      "name": "kangdev Williams",
+      "email": "kangdev@abrah.am",
       "homepage": "https://abrah.am",
       "role": "Developer"
     }
   ],
   "support": {
-    "source": "https://github.com/abraham/twitteroauth",
-    "issues": "https://github.com/abraham/twitteroauth/issues"
+    "source": "https://github.com/kangdev/twitteroauth",
+    "issues": "https://github.com/kangdev/twitteroauth/issues"
   },
   "repositories": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/abraham/phpunit-testlistener-vcr"
+      "url": "https://github.com/kangdev/phpunit-testlistener-vcr"
     }
   ],
   "require": {
@@ -50,7 +50,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Abraham\\TwitterOAuth\\": "src"
+      "kangdev\\TwitterOAuth\\": "src"
     }
   }
 }

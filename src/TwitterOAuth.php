@@ -8,9 +8,9 @@
 
 declare(strict_types=1);
 
-namespace Abraham\TwitterOAuth;
+namespace kangdev\TwitterOAuth;
 
-use Abraham\TwitterOAuth\{
+use kangdev\TwitterOAuth\{
     Consumer,
     HmacSha1,
     Response,
@@ -22,7 +22,7 @@ use Composer\CaBundle\CaBundle;
 /**
  * TwitterOAuth class for interacting with the Twitter API.
  *
- * @author Abraham Williams <abraham@abrah.am>
+ * @author kangdev Williams <kangdev@abrah.am>
  */
 class TwitterOAuth extends Config
 {

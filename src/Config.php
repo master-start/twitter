@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Abraham\TwitterOAuth;
+namespace kangdev\TwitterOAuth;
 
 /**
  * Handle setting and storing config for TwitterOAuth.
  *
- * @author Abraham Williams <abraham@abrah.am>
+ * @author kangdev Williams <kangdev@abrah.am>
  */
 class Config
 {

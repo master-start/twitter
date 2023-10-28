@@ -689,7 +689,7 @@
             "version": "dev-php-8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/abraham/phpunit-testlistener-vcr",
+                "url": "https://github.com/kangdev/phpunit-testlistener-vcr",
                 "reference": "13a0e1213d3415e3c5cdda9450a4979b5867020a"
             },
             "require": {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Abraham\TwitterOAuth;
+namespace kangdev\TwitterOAuth;
 
 /**
  * The result of the most recent API request.
  *
- * @author Abraham Williams <abraham@abrah.am>
+ * @author kangdev Williams <kangdev@abrah.am>
  */
 class Response
 {
