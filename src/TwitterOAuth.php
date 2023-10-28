@@ -190,6 +190,33 @@ class TwitterOAuth extends Config
     }
 
     /**
+     * Make /oauth/* requests to the API.
+     *
+     * @param string $path
+     * @param array  $parameters
+     *
+     * @return array
+     * @throws TwitterOAuthException
+     */
+    public function oauth3(string $path, array $parameters = [],$method = "POST"): array
+    {
+        $response = [];
+        $this->resetLastResponse();
+        $this->response->setApiPath($path);
+        $url = sprintf('%s/%s', self::API_HOST, $path);
+        $result = $this->oAuthRequest($url, $method, $parameters);
+
+        if ($this->getLastHttpCode() != 200) {
+            throw new TwitterOAuthException($result);
+        }
+
+        $response = JsonDecoder::decode($result, $this->decodeJsonAsArray);
+        $this->response->setBody($response);
+
+        return $response;
+    }
+
+    /**
      * Make /oauth2/* requests to the API.
      *
      * @param string $path
