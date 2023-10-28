@@ -224,9 +224,8 @@ class TwitterOAuth extends Config
      *
      * @return array|object
      */
-    public function oauth2(string $path, array $parameters = [])
+    public function oauth2(string $path, array $parameters = [],$method = 'POST')
     {
-        $method = 'POST';
         $this->resetLastResponse();
         $this->response->setApiPath($path);
         $url = sprintf('%s/%s', self::API_HOST, $path);
