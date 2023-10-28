@@ -1,7 +1,7 @@
 {
   "name": "kangdev/twitteroauth",
   "type": "library",
-  "description": "PHP版本的Twitter API SDK包、更新前请注意test",
+  "description": "PHP版本的Twitter API SDK包、更新前请注意测试",
   "keywords": [
     "twitter",
     "api",
