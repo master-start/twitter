@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace kangdev\TwitterOAuth;
+namespace Kangdev\TwitterOAuth;
 
 /**
  * The result of the most recent API request.

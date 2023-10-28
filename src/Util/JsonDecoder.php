@@ -1,6 +1,6 @@
 <?php
 
-namespace kangdev\TwitterOAuth\Util;
+namespace Kangdev\TwitterOAuth\Util;
 
 /**
  * @author louis <louis@systemli.org>

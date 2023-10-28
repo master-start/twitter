@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace kangdev\TwitterOAuth;
+namespace Kangdev\TwitterOAuth;
 
 /**
  * Handle setting and storing config for TwitterOAuth.
