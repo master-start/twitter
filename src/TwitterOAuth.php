@@ -182,9 +182,8 @@ class TwitterOAuth extends Config
         if ($this->getLastHttpCode() != 200) {
             throw new TwitterOAuthException($result);
         }
-        
+
         parse_str($result, $response);
-        $response = JsonDecoder::decode($result, $this->decodeJsonAsArray);
         $this->response->setBody($response);
 
         return $response;
